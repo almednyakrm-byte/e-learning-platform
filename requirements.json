@@ -1,0 +1,40 @@
+{
+  "project_name": "منصة التعليم الإلكتروني مع إدارة المحتوى واختبارات تفاعلية",
+  "project_type": "school_management",
+  "color_palette": "slate-900 and indigo-500",
+  "modules": [
+    "students",
+    "teachers",
+    "courses",
+    "grades"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_students",
+    "list_teachers",
+    "list_courses",
+    "create_grade",
+    "view_grades"
+  ],
+  "permissions": {
+    "guest": [
+      "index",
+      "login"
+    ],
+    "user": [
+      "index",
+      "list_students",
+      "list_courses"
+    ],
+    "admin": [
+      "index",
+      "list_students",
+      "list_teachers",
+      "list_courses",
+      "create_grade",
+      "view_grades"
+    ]
+  }
+}
